@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Générateur de Surnoms Absurdes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur de qualitées/defauts</h1>
+        <form id="nickname-form">
+            <label for="name">Entrez votre nom :</label>
+            <input type="text" id="name" required>
+            <div>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Masculin</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Féminin</label>
+            </div>
+            <button type="submit">Générer un Surnom Absurde</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
